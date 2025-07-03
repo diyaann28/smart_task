@@ -23,7 +23,7 @@ A full-stack web app using **React + Flask + SQLite** for managing personal task
 cd backend
 python -m venv venv
 venv\Scripts\activate        # (use source venv/bin/activate for Mac/Linux)
-pip install -r requirements.txt
+pip install -r requirements.txt #install requirements needed
 python app.py
 
 cd frontend
