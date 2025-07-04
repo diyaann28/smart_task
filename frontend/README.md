@@ -1,6 +1,6 @@
 # ✅ Smart Task Tracker
 
-A full-stack web app using **React + Flask + SQLite** for managing personal tasks.
+A full-stack web app using **React(Frontend) + Flask(Python backend) + SQLite(Database)** for managing personal tasks.
 
 ---
 
@@ -8,10 +8,12 @@ A full-stack web app using **React + Flask + SQLite** for managing personal task
 
 - 🔐 Login & Register (session-based auth)
 - ✅ Add, Edit, Delete tasks
-- 🏷️ Priority suggestion (rule-based)
+- 🏷️ Priority suggestion by task title
 - 📊 Completion summary
 - 🔄 Drag and rearrange tasks (drag-and-drop)
 - 👤 Private task lists for each user
+- ✅ Mark tasks as complete or incomplete
+- 💻 Real-time Task Updates
 
 ---
 
