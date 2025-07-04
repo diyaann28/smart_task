@@ -118,8 +118,8 @@ class Task(db.Model):
     category  = db.Column(db.String(50))
     completed = db.Column(db.Boolean, default=False)
     priority  = db.Column(db.String(10))
-    user_id   = db.Column(db.Integer, db.ForeignKey('user.id'))   # NEW
-    user      = db.relationship('User', backref='tasks')          # (optional)
+    user_id   = db.Column(db.Integer, db.ForeignKey('user.id'))   
+    user      = db.relationship('User', backref='tasks')          
     
     def to_dict(self):
         return {
