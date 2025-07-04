@@ -29,8 +29,8 @@ import { useEffect, useState } from 'react';
 import Home from './pages/Home';
 import CreateTask from './pages/CreateTask';
 import EditTask from './pages/EditTask';
-import Login from './pages/Login';       // ← new
-import Register from './pages/Register'; // ← new
+import Login from './pages/Login';       
+import Register from './pages/Register'; 
 import './App.css';
 
 /* simple auth helper */
