@@ -14,6 +14,7 @@ A full-stack web app using **React(Frontend) + Flask(Python backend) + SQLite(Da
 - 👤 Private task lists for each user
 - ✅ Mark tasks as complete or incomplete
 - 💻 Real-time Task Updates
+- 🗓  Categorize tasks (work, personal etc)
 
 ---
 
